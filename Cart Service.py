@@ -52,7 +52,7 @@ def get_pw(username):
     return None
 # Sends requests to product endpoints
 def productDataRequest(product_id):
-    url = 'http://127.0.0.1:5000'
+    url = 'https://product-service-wk.onrender.com'
     response = requests.get(f'{url}/products/{product_id}',auth=('khanwg', 'P@ssword!'))
 
     if response.status_code == 200:
