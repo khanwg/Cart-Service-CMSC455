@@ -8,6 +8,7 @@ Flask-HTTPAuth
 flask-sqlalchemy
 future
 greenlet
+gunicorn
 idna
 importlib-metadata
 itsdangerous
